@@ -58,7 +58,7 @@ def _extract_topic(text: str) -> str:
     remove_words = ['만들어', '작성', '생성', '슬라이드', '프레젠테이션', '발표자료', 'ppt', 'pptx']
     
     for word in remove_words:
-        clean_text = clean_text.replace(word, '')
+        clean_text = re.sub(re.escape(word), '', clean_text, flags=re.IGNORECASE)
     
     # Clean up
     clean_text = clean_text.strip()
