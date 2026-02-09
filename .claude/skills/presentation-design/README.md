@@ -98,8 +98,9 @@ presentation-design/
 ├── SKILL.md                    # Skill 정의 및 사용법
 ├── README.md                   # 이 파일
 ├── presets.json                # 11개 스타일 정의
+├── QUICK_START.md              # 빠른 시작 가이드
 ├── scripts/
-│   ├── __init__.py
+│   ├── integration_helper.py   # 통합 도우미
 │   ├── style_matcher.py        # 스타일 자동 매칭
 │   └── workflow.py             # 워크플로우 관리
 └── evals/
