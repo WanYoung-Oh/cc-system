@@ -88,7 +88,7 @@ def _identify_content_type(text: str) -> str:
     text_lower = text.lower()
     
     for content_type, keywords in content_types.items():
-        if any(keyword in text_lower for keyword in keywords):
+        if any(keyword.lower() in text_lower for keyword in keywords):
             return content_type
     
     return "일반발표"
@@ -109,7 +109,7 @@ def _identify_audience(text: str) -> str:
     text_lower = text.lower()
     
     for audience, keywords in audiences.items():
-        if any(keyword in text_lower for keyword in keywords):
+        if any(keyword.lower() in text_lower for keyword in keywords):
             return audience
     
     return "일반"
