@@ -1,0 +1,327 @@
+{
+  "modern-minimalist": {
+    "name": "모던 미니멀 (Modern Minimalist)",
+    "description": "극도의 절제미, 넓은 여백, 깔끔한 산세리프 폰트. 가독성 최우선.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#36454F",
+      "secondary": "#F2F2F2",
+      "accent": "#212121"
+    },
+    "fonts": {
+      "header": "Calibri",
+      "body": "Calibri Light"
+    },
+    "ai_keywords": [
+      "Minimalist",
+      "High clarity",
+      "Zen-like",
+      "White space"
+    ],
+    "recommended_for": [
+      "학회 발표",
+      "논문 심사",
+      "전문 강연"
+    ],
+    "tone": {
+      "default": "analytical",
+      "description": "전문적이고 객관적",
+      "text_style": "명사형 종결, 데이터 중심"
+    }
+  },
+  "flat-design": {
+    "name": "플랫 디자인 (Flat Design 2.0)",
+    "description": "그림자나 입체감을 최소화한 세련된 2D 일러스트.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#028090",
+      "secondary": "#00A896",
+      "accent": "#02C39A"
+    },
+    "fonts": {
+      "header": "Calibri",
+      "body": "Calibri"
+    },
+    "ai_keywords": [
+      "Flat Vector",
+      "Clean Illustration",
+      "Pure white background"
+    ],
+    "recommended_for": [
+      "대학 강의 자료",
+      "유튜브 콘텐츠"
+    ],
+    "tone": {
+      "default": "minimalist",
+      "description": "현대적이고 친근함",
+      "text_style": "키워드 중심, 단순 명료"
+    }
+  },
+  "bento-grid": {
+    "name": "벤토 그리드 (Bento Grid)",
+    "description": "정보를 깔끔한 사각형 상자 안에 모듈식으로 배치. 구조적 안정감.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#1E2761",
+      "secondary": "#CADCFC",
+      "accent": "#FFFFFF"
+    },
+    "fonts": {
+      "header": "Calibri",
+      "body": "Calibri"
+    },
+    "ai_keywords": [
+      "Bento Box Layout",
+      "Modular",
+      "Structured",
+      "Grid-based"
+    ],
+    "recommended_for": [
+      "연구 결과 요약",
+      "복잡한 시스템 단계 설명"
+    ],
+    "tone": {
+      "default": "analytical",
+      "description": "체계적이고 논리적",
+      "text_style": "단계별 설명, 구조화된 내용"
+    }
+  },
+  "eco-minimalism": {
+    "name": "에코 미니멀리즘 (Eco-Minimalism)",
+    "description": "자연에서 온 색감(베이지, 그린), 종이 질감, 유기적인 형태 사용.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#84B59F",
+      "secondary": "#69A297",
+      "accent": "#50808E"
+    },
+    "fonts": {
+      "header": "Georgia",
+      "body": "Calibri"
+    },
+    "ai_keywords": [
+      "Earth tones",
+      "Natural texture",
+      "Organic shapes",
+      "Muted green"
+    ],
+    "recommended_for": [
+      "ESG 관련 강의",
+      "심리/상담 자료"
+    ],
+    "tone": {
+      "default": "professional",
+      "description": "차분하고 신뢰감 있음",
+      "text_style": "부드러운 어조, 공감적 표현"
+    }
+  },
+  "glassmorphism": {
+    "name": "글래스모피즘 (Glassmorphism)",
+    "description": "반투명한 유리 느낌의 레이어와 밝은 배경. 미래지향적이고 입체적.",
+    "background": "#F5F5F5",
+    "colors": {
+      "primary": "#065A82",
+      "secondary": "#1C7293",
+      "accent": "#21295C"
+    },
+    "fonts": {
+      "header": "Trebuchet MS",
+      "body": "Calibri"
+    },
+    "ai_keywords": [
+      "Translucence",
+      "Frosted glass",
+      "Soft blur",
+      "Layered depth"
+    ],
+    "recommended_for": [
+      "최신 AI 기술 동향 발표",
+      "혁신 기술 브리핑"
+    ],
+    "tone": {
+      "default": "persuasive",
+      "description": "미래지향적이고 혁신적",
+      "text_style": "비전 제시형, 트렌드 강조"
+    }
+  },
+  "dark-contrast": {
+    "name": "다크 모드 (Dark Contrast)",
+    "description": "검은 배경에 네온이나 고대비 포인트 컬러 사용. 눈의 피로도 낮음.",
+    "background": "#212121",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#F96167",
+      "accent": "#F9E795"
+    },
+    "fonts": {
+      "header": "Impact",
+      "body": "Arial"
+    },
+    "ai_keywords": [
+      "Dark mode",
+      "High contrast",
+      "Neon accents",
+      "Cinematic"
+    ],
+    "recommended_for": [
+      "어두운 강의실 시청각 자료",
+      "유튜브 썸네일"
+    ],
+    "tone": {
+      "default": "persuasive",
+      "description": "강렬하고 임팩트 있음",
+      "text_style": "짧고 강한 문구, 핵심 강조"
+    }
+  },
+  "isometric-3d": {
+    "name": "3D 아이소메트릭 (3D Isometric)",
+    "description": "입체적인 사선 구도로 공간감 표현. 기술이나 프로세스 시각화에 탁월.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#2C5F2D",
+      "secondary": "#97BC62",
+      "accent": "#F5F5F5"
+    },
+    "fonts": {
+      "header": "Calibri",
+      "body": "Calibri"
+    },
+    "ai_keywords": [
+      "Isometric 3D",
+      "High-tech",
+      "Dimensional illustration"
+    ],
+    "recommended_for": [
+      "복잡한 뇌 구조나 언어 인지 프로세스 설명"
+    ],
+    "tone": {
+      "default": "analytical",
+      "description": "기술적이고 상세함",
+      "text_style": "단계별 설명, 프로세스 중심"
+    }
+  },
+  "retro-modern": {
+    "name": "레트로 모던 (Retro Modern)",
+    "description": "90년대 감성의 볼드한 폰트와 원색 사용. 향수와 현대적 감각의 조화.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#990011",
+      "secondary": "#FCF6F5",
+      "accent": "#2F3C7E"
+    },
+    "fonts": {
+      "header": "Arial Black",
+      "body": "Arial"
+    },
+    "ai_keywords": [
+      "Nostalgic",
+      "Bold typography",
+      "90s aesthetic",
+      "Vibrant"
+    ],
+    "recommended_for": [
+      "유튜브 구독자 이벤트",
+      "트렌디한 뉴스 브리핑"
+    ],
+    "tone": {
+      "default": "persuasive",
+      "description": "경쾌하고 에너지 넘침",
+      "text_style": "캐주얼하고 친근한 어조"
+    }
+  },
+  "fresh-clean": {
+    "name": "프레시 & 클린 (Fresh & Clean)",
+    "description": "밝은 자연광, 선명한 색감, 누끼 따진 듯한 깔끔한 피사체, 정돈된 구도.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#F96167",
+      "secondary": "#F9E795",
+      "accent": "#2F3C7E"
+    },
+    "fonts": {
+      "header": "Calibri",
+      "body": "Calibri Light"
+    },
+    "ai_keywords": [
+      "High-resolution Food Photography",
+      "Bright Natural Light",
+      "Vibrant Colors",
+      "Clean Composition",
+      "Fresh Ingredients on White Surface"
+    ],
+    "recommended_for": [
+      "식재료 효능 설명",
+      "건강식품 소개",
+      "레시피 재료 나열"
+    ],
+    "tone": {
+      "default": "minimalist",
+      "description": "신선하고 건강한 느낌",
+      "text_style": "간결하고 명확한 설명"
+    }
+  },
+  "rustic-organic": {
+    "name": "러스틱 & 오가닉 (Rustic & Organic)",
+    "description": "따뜻한 톤, 자연스러운 질감(흙, 나무), 유기농 느낌, 깊이감 있는 사진.",
+    "background": "#F5F5F5",
+    "colors": {
+      "primary": "#B85042",
+      "secondary": "#E7E8D1",
+      "accent": "#A7BEAE"
+    },
+    "fonts": {
+      "header": "Georgia",
+      "body": "Garamond"
+    },
+    "ai_keywords": [
+      "Rustic Food Photography",
+      "Farm-to-table Aesthetic",
+      "Organic Textures",
+      "Warm Natural Lighting",
+      "Earthy Tones",
+      "Shallow Depth of Field"
+    ],
+    "recommended_for": [
+      "유기농 먹거리 소개",
+      "환경 및 식량 문제",
+      "슬로 푸드 관련 발표"
+    ],
+    "tone": {
+      "default": "professional",
+      "description": "따뜻하고 진솔함",
+      "text_style": "스토리텔링, 가치 중심"
+    }
+  },
+  "editorial-magazine": {
+    "name": "에디토리얼/매거진 (Editorial / Culinary Magazine)",
+    "description": "영화 같은 조명, 예술적인 플레이팅, 풍부한 질감 표현, 고급스러움.",
+    "background": "#FFFFFF",
+    "colors": {
+      "primary": "#6D2E46",
+      "secondary": "#A26769",
+      "accent": "#ECE2D0"
+    },
+    "fonts": {
+      "header": "Palatino",
+      "body": "Garamond"
+    },
+    "ai_keywords": [
+      "Editorial Food Photography",
+      "Culinary Magazine Style",
+      "Dramatic Lighting",
+      "Artful Plating",
+      "Rich Textures",
+      "Gourmet"
+    ],
+    "recommended_for": [
+      "고급 식문화 트렌드",
+      "셰프의 철학",
+      "프리미엄 식품 브랜딩"
+    ],
+    "tone": {
+      "default": "professional",
+      "description": "고급스럽고 세련됨",
+      "text_style": "우아한 표현, 감각적 묘사"
+    }
+  }
+}

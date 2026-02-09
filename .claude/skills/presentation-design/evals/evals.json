@@ -1,0 +1,114 @@
+{
+  "evals": [
+    {
+      "id": "eval-1",
+      "name": "Academic Presentation - AI Ethics",
+      "prompt": "AI 윤리에 대한 학회 발표 자료 10장 만들어줘",
+      "input_files": [],
+      "expectations": [
+        {
+          "type": "style_match",
+          "description": "학회 발표에 적합한 스타일(modern-minimalist 또는 bento-grid) 선택"
+        },
+        {
+          "type": "slide_count",
+          "description": "10장의 슬라이드 생성"
+        },
+        {
+          "type": "tone",
+          "description": "전문적이고 분석적인 톤 사용"
+        },
+        {
+          "type": "content_rules",
+          "description": "이모지 없음, 명사형 종결, 5줄 이하"
+        }
+      ]
+    },
+    {
+      "id": "eval-2",
+      "name": "Tech Briefing - Latest AI Trends",
+      "prompt": "최신 AI 기술 동향을 소개하는 기술 브리핑 자료를 만들어줘. 15장 정도로.",
+      "input_files": [],
+      "expectations": [
+        {
+          "type": "style_match",
+          "description": "기술 브리핑에 적합한 스타일(glassmorphism) 선택"
+        },
+        {
+          "type": "slide_count",
+          "description": "약 15장의 슬라이드 생성"
+        },
+        {
+          "type": "tone",
+          "description": "미래지향적이고 설득적인 톤"
+        },
+        {
+          "type": "research",
+          "description": "web_search를 사용하여 최신 정보 수집"
+        }
+      ]
+    },
+    {
+      "id": "eval-3",
+      "name": "Food Presentation - Healthy Eating",
+      "prompt": "건강식품의 효능을 소개하는 교육 자료를 만들어줘",
+      "input_files": [],
+      "expectations": [
+        {
+          "type": "style_match",
+          "description": "식품 관련 스타일(fresh-clean) 선택"
+        },
+        {
+          "type": "tone",
+          "description": "신선하고 건강한 느낌의 톤"
+        },
+        {
+          "type": "visual_elements",
+          "description": "밝고 깨끗한 색상 사용"
+        }
+      ]
+    },
+    {
+      "id": "eval-4",
+      "name": "Style Matcher Test",
+      "prompt": "유기농 먹거리의 중요성을 설명하는 환경 발표 자료",
+      "input_files": [],
+      "expectations": [
+        {
+          "type": "style_match",
+          "description": "rustic-organic 스타일 자동 선택"
+        },
+        {
+          "type": "color_palette",
+          "description": "따뜻한 톤과 자연스러운 색상 사용"
+        }
+      ]
+    },
+    {
+      "id": "eval-5",
+      "name": "Marketing Presentation",
+      "prompt": "신제품 런칭 발표 자료를 만들어줘. 트렌디하고 임팩트 있게.",
+      "input_files": [],
+      "expectations": [
+        {
+          "type": "style_match",
+          "description": "retro-modern 또는 dark-contrast 스타일 선택"
+        },
+        {
+          "type": "tone",
+          "description": "설득적이고 에너지 넘치는 톤"
+        },
+        {
+          "type": "visual_impact",
+          "description": "강렬한 색상과 임팩트 있는 디자인"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-02-08",
+    "description": "Presentation Design Skill의 기본 테스트 케이스들",
+    "total_evals": 5
+  }
+}
