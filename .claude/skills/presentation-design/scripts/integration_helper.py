@@ -33,8 +33,7 @@ def generate_pptx_instruction(
         style_key = style_result['style_key']
         style = style_result
     else:
-        style = get_style_by_key(style_key)
-        style['style_key'] = style_key
+        style = {**get_style_by_key(style_key), 'style_key': style_key}
     
     # Generate design guide
     design_guide = format_design_guide(style)
