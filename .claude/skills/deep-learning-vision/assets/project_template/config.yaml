@@ -1,0 +1,57 @@
+# Training Configuration Template
+# Copy and customize this file for your project
+
+# Model configuration
+model:
+  architecture: resnet50  # See references/model_architectures.md for options
+  num_classes: 10
+  pretrained: true
+
+# Dataset configuration
+dataset:
+  type: cifar10  # cifar10, cifar100, folder
+  data_dir: ./data
+  num_workers: 4
+
+# Data preprocessing
+preprocessing:
+  image_size: 224
+  augmentation_preset: default  # none, default, strong, autoaugment
+  normalization:
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+
+# Training configuration
+training:
+  epochs: 100
+  batch_size: 32
+  optimizer: sgd  # sgd, adam, adamw
+  learning_rate: 0.001
+  momentum: 0.9  # for SGD
+  weight_decay: 0.0005
+  scheduler: cosine  # cosine, step, plateau
+
+# Environment configuration
+environment:
+  device: auto  # auto, cpu, cuda, mps
+  mixed_precision: false
+  distributed: false
+
+# Checkpointing
+checkpoint:
+  save_dir: ./checkpoints
+  save_interval: 10
+  save_best_only: false
+
+# Logging
+logging:
+  log_dir: ./logs
+  log_interval: 100
+  use_wandb: false
+  wandb_project: null
+  wandb_entity: null
+
+# Evaluation
+evaluation:
+  eval_interval: 1
+  save_predictions: false
