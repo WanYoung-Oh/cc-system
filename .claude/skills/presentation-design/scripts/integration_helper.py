@@ -3,7 +3,7 @@ Integration Helper - Bridge between presentation-design and pptx skill
 """
 
 from typing import Dict, List
-from style_matcher import match_style, format_design_guide, get_style_by_key
+from scripts.style_matcher import match_style, format_design_guide, get_style_by_key
 
 
 def generate_pptx_instruction(
