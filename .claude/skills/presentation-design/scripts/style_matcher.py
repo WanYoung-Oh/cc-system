@@ -246,13 +246,13 @@ if __name__ == "__main__":
     
     # Test case 1: AI topic
     result = match_style("AI 윤리", "학회발표")
-    print(f"Topic: AI 윤리")
+    print("Topic: AI 윤리")
     print(f"Recommended: {result['name']}")
     print(f"Rationale: {result['rationale']}\n")
     
     # Test case 2: Food topic
     result = match_style("건강식품 소개", "교육자료")
-    print(f"Topic: 건강식품 소개")
+    print("Topic: 건강식품 소개")
     print(f"Recommended: {result['name']}")
     print(f"Rationale: {result['rationale']}\n")
     
