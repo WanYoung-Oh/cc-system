@@ -3,7 +3,7 @@ Integration Helper - Bridge between presentation-design and pptx skill
 """
 
 from typing import Dict, List
-from style_matcher import match_style, format_design_guide, get_style_by_key
+from scripts.style_matcher import match_style, format_design_guide, get_style_by_key
 
 
 def generate_pptx_instruction(
@@ -33,8 +33,7 @@ def generate_pptx_instruction(
         style_key = style_result['style_key']
         style = style_result
     else:
-        style = get_style_by_key(style_key)
-        style['style_key'] = style_key
+        style = {**get_style_by_key(style_key), 'style_key': style_key}
     
     # Generate design guide
     design_guide = format_design_guide(style)

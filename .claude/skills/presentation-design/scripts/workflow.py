@@ -56,9 +56,9 @@ def _extract_topic(text: str) -> str:
     # Remove common command words
     clean_text = text
     remove_words = ['만들어', '작성', '생성', '슬라이드', '프레젠테이션', '발표자료', 'ppt', 'pptx']
-    
+  
     for word in remove_words:
-        clean_text = clean_text.replace(word, '')
+        clean_text = re.sub(re.escape(word), '', clean_text, flags=re.IGNORECASE)
     
     # Clean up
     clean_text = clean_text.strip()
@@ -88,7 +88,7 @@ def _identify_content_type(text: str) -> str:
     text_lower = text.lower()
     
     for content_type, keywords in content_types.items():
-        if any(keyword in text_lower for keyword in keywords):
+        if any(keyword.lower() in text_lower for keyword in keywords):
             return content_type
     
     return "일반발표"
@@ -109,7 +109,7 @@ def _identify_audience(text: str) -> str:
     text_lower = text.lower()
     
     for audience, keywords in audiences.items():
-        if any(keyword in text_lower for keyword in keywords):
+        if any(keyword.lower() in text_lower for keyword in keywords):
             return audience
     
     return "일반"
