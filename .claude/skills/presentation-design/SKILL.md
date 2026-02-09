@@ -80,16 +80,16 @@ print(f"이유: {recommended_style['rationale']}")
 
 ```python
 # 1. presets.json에서 선택된 스타일 로드
-style = presets[recommended_style["name"]]
+style = presets[recommended_style["style_key"]]
 
 # 2. pptx skill에 전달할 디자인 가이드 생성
 design_guide = f"""
 스타일: {style['description']}
 배경색: {style['background']}
 색상 팔레트:
-- Primary: #{style['colors']['primary']}
-- Secondary: #{style['colors']['secondary']}
-- Accent: #{style['colors']['accent']}
+- Primary: {style['colors']['primary']}
+- Secondary: {style['colors']['secondary']}
+- Accent: {style['colors']['accent']}
 
 폰트:
 - Header: {style['fonts']['header']}
@@ -103,7 +103,6 @@ AI 프롬프트 키워드: {', '.join(style['ai_keywords'])}
 
 # 3. pptx skill 호출
 # "pptx skill을 사용하여 위 디자인 가이드에 따라 슬라이드 생성"
-```
 
 ---
 
